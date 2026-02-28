@@ -1,0 +1,7 @@
+It highlights Data Poisoning, PII/Data Masking, and Access Control.
+
+The Problem: If an attacker "poisons" the data the AI retrieves (e.g., by adding a malicious instruction to a help document), the AI will treat that bad data as truth and might execute an attack on the user.
+
+​The Bridge: We must treat retrieved data with the same suspicion we treat user input in a traditional SQL injection scenario.
+
+​The Solution: Implement Data Poisoning defenses and PII/Data Masking. By ensuring the AI only retrieves "sanitized" context, you protect the end-to-end pipeline from being used for data exfiltration.
