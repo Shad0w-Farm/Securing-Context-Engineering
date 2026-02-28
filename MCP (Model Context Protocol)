@@ -5,3 +5,12 @@ MCP Focuses on the "handshake" between AI and external data. Key concepts includ
 ​The Bridge: We need a standardized, secure way for models to "talk" to external environments without exposing the core system.
 
 ​The Solution: Master MCP Security. This includes implementing strict Registration and Signature Validation for any data source the AI connects to, ensuring that the "supply chain" of information the AI consumes is verified and hasn't been tampered with.
+
+I will be mastering the below:
+1. Scanning
+2. Intent vs Code Validation
+3. Registration and Signature Validation
+4. API security practices
+5. Supply-Chain Security
+6. Allow/Denylist
+7. Guardrails
